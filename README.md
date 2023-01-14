@@ -1,7 +1,6 @@
 # mac-curl-recert
 
-Has your macOS Mojave, macOS High Sierra, macOS Sierra, OS X El
-Capitan, or older curl
+Has curl on your macOS Mojave, macOS High Sierra, macOS Sierra
 [recently stopped working with many https sites](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/)?
 
 If you trust me completely:
@@ -18,6 +17,10 @@ If you're more cautious, find a working instance of macOS Catalina or newer, cop
     ./mac-curl-recert.rb /etc/ssl/cert.pem cert.pem >bigsur.pem
     sudo ./mac-curl-recert.sh
 
+# end result
+
+    curl https://letsencrypt.org/ # should now work
+
 # shasum
 
-390b2942559d8590f1e27fbb9773d7d4160f56b6  bigsur.pem
+17882fdb36d15b6fec96b30c3b7c425fba05e8dc  bigsur.pem
