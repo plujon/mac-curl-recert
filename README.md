@@ -3,7 +3,7 @@
 Has curl on your macOS Mojave, macOS High Sierra, macOS Sierra
 [recently stopped working with many https sites](https://letsencrypt.org/docs/dst-root-ca-x3-expiration-september-2021/)?
 
-If you trust me completely:
+If you trust me completely, open a terminal and run:
 
     git clone https://github.com/plujon/mac-curl-recert
     cd mac-curl-recert
